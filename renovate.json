@@ -4,13 +4,6 @@
 		"config:base",
 		":semanticCommits"
 	],
-	"timezone": "Europe/Vienna",
-	"schedule": [
-		"before 5am on wednesday"
-	],
-	"rangeStrategy": "bump",
-	"rebaseWhen": "conflicted",
-	"ignoreUnstable": false,
 	"baseBranches": [
 		"main",
 		"stable1",
@@ -20,8 +13,7 @@
 		"npm"
 	],
 	"vulnerabilityAlerts": {
-		"enabled": true,
-		"semanticCommitType": "fix"
+		"enabled": true
 	},
 	"osvVulnerabilityAlerts": true
 }
