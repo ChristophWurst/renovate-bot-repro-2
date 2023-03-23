@@ -22,13 +22,6 @@
 	"enabledManagers": [
 		"npm"
 	],
-	"packageRules": [
-		{
-			"description": "do not open regular bumps for stable branches",
-			"enabled": false,
-			"matchBaseBranches": "/^stable(.)+/"
-		}
-	],
 	"vulnerabilityAlerts": {
 		"enabled": true,
 		"semanticCommitType": "fix",
