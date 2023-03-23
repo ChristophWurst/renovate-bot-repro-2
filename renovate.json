@@ -8,9 +8,6 @@
 	"schedule": [
 		"before 5am on wednesday"
 	],
-	"commitMessageAction": "Bump",
-	"commitMessageTopic": "{{depName}}",
-	"commitMessageExtra": "from {{currentVersion}} to {{#if isPinDigest}}{{{newDigestShort}}}{{else}}{{#if isMajor}}{{prettyNewMajor}}{{else}}{{#if isSingleVersion}}{{prettyNewVersion}}{{else}}{{#if newValue}}{{{newValue}}}{{else}}{{{newDigestShort}}}{{/if}}{{/if}}{{/if}}{{/if}}",
 	"rangeStrategy": "bump",
 	"rebaseWhen": "conflicted",
 	"ignoreUnstable": false,
@@ -24,8 +21,7 @@
 	],
 	"vulnerabilityAlerts": {
 		"enabled": true,
-		"semanticCommitType": "fix",
-		"dependencyDashboardApproval": false
+		"semanticCommitType": "fix"
 	},
 	"osvVulnerabilityAlerts": true
 }
