@@ -13,7 +13,7 @@
 		"npm"
 	],
 	"vulnerabilityAlerts": {
-		"enabled": true
+		"enabled": false
 	},
 	"osvVulnerabilityAlerts": true
 }
