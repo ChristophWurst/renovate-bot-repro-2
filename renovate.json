@@ -4,6 +4,11 @@
 		"config:base",
 		":semanticCommits"
 	],
+	"baseBranches": [
+		"main",
+		"stable1",
+		"stable2"
+	],
 	"enabledManagers": [
 		"npm"
 	],
