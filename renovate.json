@@ -5,9 +5,7 @@
 		":semanticCommits"
 	],
 	"baseBranches": [
-		"main",
-		"stable1",
-		"stable2"
+		"main"
 	],
 	"enabledManagers": [
 		"npm"
